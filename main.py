@@ -46,7 +46,7 @@ def create_window():
     text.place(x=50, y=15, height=80, width=150)
     index += 1
     window.after(2000,move)
-    if index < 100:
+    if index < 20:
         root.after(50, create_window)
 def close_(event):
     root.destroy()
